@@ -1,0 +1,175 @@
+body {
+  background-color: #fdfd96;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #474A51; /* Alterado para cinza escuro */
+  color: #fff;
+  padding: 10px;
+}
+
+.header img {
+  max-height: 40px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.links a {
+  color: #fff;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.menu-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+/* Estilo da barra de pesquisa */
+.search-box {
+  display: flex;
+  align-items: center;
+}
+
+#searchInput {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 15px;
+  font-size: 16px;
+  background-color: #333; /* Alterado para cinza escuro */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444; /* Alterado para um tom mais escuro */
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+.produtos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.produto {
+  width: 300px; /* Valor aumentado em 20% */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #474A51;
+}
+
+.produto img {
+  max-width: 100%;
+  border-radius: 5px;
+  max-height: 120%;
+}
+
+.produto h3 {
+  margin-top: 10px;
+}
+
+.produto p {
+  font-weight: bold;
+}
+
+.produto button {
+  display: block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #333; /* Alterado para cinza escuro */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.produto button:hover {
+  background-color: #444; /* Alterado para um tom mais escuro */
+}
+
+.texto-riscado {
+  text-decoration: line-through;
+}
+
+.carousel-container {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.carousel-slide {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  flex: 0 0 33.33%;
+  margin: 0 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #474A51;
+  overflow: hidden;
+  text-align: center;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.carousel-item h3 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.carousel-item p {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Botões de controle do carrossel */
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.carousel-control {
+  cursor: pointer;
+  margin: 0 5px;
+  font-size: 1.5rem;
+}
